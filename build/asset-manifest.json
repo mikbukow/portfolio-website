@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.93d22aef.css",
+    "main.js": "/static/js/main.01842b17.js",
+    "static/media/playstation.png": "/static/media/playstation.992d5c3e035684873e58.png",
+    "static/media/rpi.webp": "/static/media/rpi.31da5d9415e29751be37.webp",
+    "static/media/cisco.png": "/static/media/cisco.c7f89faaf8d97b638a77.png",
+    "index.html": "/index.html",
+    "main.93d22aef.css.map": "/static/css/main.93d22aef.css.map",
+    "main.01842b17.js.map": "/static/js/main.01842b17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93d22aef.css",
+    "static/js/main.01842b17.js"
+  ]
+}
