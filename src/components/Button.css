@@ -1,0 +1,17 @@
+.button-link {
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 8px 20px;
+    background-color: transparent;
+    border-color: white;
+    cursor: pointer;
+}
+
+.button-link:hover {
+    background-color: white;
+    color: darkgray;
+    transition: ease-in-out .25s;
+
+}

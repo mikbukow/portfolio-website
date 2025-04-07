@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height:100vh;
+    
+}
+.home-container {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 85px;
+    margin-bottom: auto;
+}
+
+p {
+    font-size: large;
+    font-weight: 555;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.social-icon-links {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.social-icon-links:hover {
+    color: darkgray;
+    transition: ease-in-out .25s;
+}

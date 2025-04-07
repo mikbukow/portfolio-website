@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    color: white;
+    margin-top: .75rem;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul {
+    padding: 6px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.nav li::after {
+    transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 white;
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+
+}
+
+.nav li:hover::after {
+    width: 80%;
+}

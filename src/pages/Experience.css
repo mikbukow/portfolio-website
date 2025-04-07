@@ -1,0 +1,57 @@
+.experience {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+h1 {
+    color: white;
+}
+
+.experience-cards {
+    display: grid;
+    grid-template-columns: 700px 700px;
+}
+
+.card{
+    background-color: white;
+    opacity: .85;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 7px;
+    object-fit: contain;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.experience-title {
+    color: white;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+img {
+    height: 5rem;
+    width: 5rem;
+    align-items: center;
+}
+
+h3, h4 {
+    color: #595757;
+}
+
+p {
+    display: list-item;
+    list-style: circle;
+ }
+
+.card:hover {
+    transform: scale(1.01);
+    transition: all ease-in-out .2s;
+ }
