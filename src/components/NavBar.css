@@ -11,29 +11,71 @@ body {
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
-    padding: 0 1rem;
     color: white;
-    margin-top: .75rem;
+    position: fixed;
+    width: 100vw;
+    transition: background-color .5s ease;
+}
+
+.nav-scroll {
+    display: flex;
+    transition-property: color 2s;
+    justify-content: space-between;
+    align-items: stretch;
+    color: darkgrey;
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+    transition: background-color 2s ease;
+    margin-top: 0;
+    height: 3.5rem;
+    opacity: .8;
+    z-index: 999;
 }
 
 .site-title {
-    font-size: 1.5rem;
+    transition: .5s;
+    display: flex;
+    font-size: 1.25rem;
     text-decoration: none;
     color: white;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
 }
 
-.nav ul {
-    padding: 6px;
-    margin: 0;
+.site-title-scroll {
+    display: flex;
+    transition: 2s;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: darkgrey;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+
+.nav ul, .nav-scroll ul {
     list-style: none;
     display: flex;
     gap: 1rem;
 }
 
 .nav-link {
+    display: flex;
+    transition: .5s;
     text-decoration: none;
     color: white;
     font-size: 1.25rem;
+    margin-right: 1rem;
+}
+
+.nav-link-scroll {
+    transition: 2s;
+    text-decoration: none;
+    color: grey;
+    font-size: 1.25rem;
+    margin-right: 1rem;
 }
 
 .nav li::after {
@@ -49,3 +91,18 @@ body {
 .nav li:hover::after {
     width: 80%;
 }
+
+.nav-scroll li::after {
+    transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 darkgrey;
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+
+}
+
+.nav-scroll li:hover::after {
+    width: 80%;
+}
+
