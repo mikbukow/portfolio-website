@@ -49,10 +49,10 @@ export default function Experience() {
                 <h2 className='experience-title'> Education </h2>
                 <div className='experience-cards'>
                     <Card>
-                        <h2>Rensselear Polytechnic Institute</h2>
                         <img src={RPI} />
-                        <h5>B.S in Computer Science</h5>
-                        <h5>Graduation: May 2020</h5>
+                        <h2>Rensselear Polytechnic Institute</h2>
+                        <h3>B.S in Computer Science</h3>
+                        <h4>Graduation: May 2020</h4>
                         <h5>Graduated Cum Laude</h5>
                     </Card>
                 </div>
