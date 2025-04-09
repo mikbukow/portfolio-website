@@ -1,7 +1,66 @@
 .about-me {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 100vh;    
-    align-items: center;
 }
+
+.about-me-container {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+span {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+span.title {
+    color: white;
+    font-size: larger;
+    margin-left: 5rem;
+}
+
+.title h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.title h3 {
+    color: darkgray;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+span.pics {
+    display: flex;
+    justify-content: center;
+}
+
+.pics img { 
+    height: 50%;
+    width: 50%;
+    border-radius: 4px;
+    opacity: .9;
+}
+
+@media screen and (max-width: 768px) {
+    span.pics {
+        display: none;
+    }
+    .title h1 {
+        font-size: 1.75rem;
+    }
+    .title h3 {
+        font-size: 1.5rem;
+    }
+    span.title {
+        display: flex;
+        flex-direction: column;
+    }
+
+} 
