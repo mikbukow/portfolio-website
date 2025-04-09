@@ -9,7 +9,7 @@ export default function About() {
         <div className='about-me'>
             <div className="about-me-container">
                 <span className="title">
-                    <h2>Hi! I'm Mikaela Bukow. I’m a full time software engineer located in San Francisco, CA. </h2>
+                    <h1>Hi! I'm Mikaela Bukow. I’m a full time software engineer located in San Francisco, CA. </h1>
                     <h3> I find joy in creating things, whether it be paintings, automated solutions or some new ceramic mugs</h3>
                     <Button className='more-about-button' path={'#more-about'}>
                         Learn More About Me - Coming Soon

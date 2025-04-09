@@ -9,7 +9,7 @@ export default function Home() {
             <div className="home-container">
                 <h1>Mikaela Bukow</h1>
                 <p>Hi! I'm Mikaela. I'm currently working as a Software Engineer at Playstation in San Francisco, CA. </p>
-                <Button path='./About'>
+                <Button path='./about'>
                     About Me
                 </Button>
                 <div className='social-icons'>
